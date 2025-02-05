@@ -1,0 +1,21 @@
+# Project structure should look like this:
+app/
+├── app.py          # Your main application file
+├── requirements.txt
+└── README.md
+
+# requirements.txt content:
+gradio==4.19.2
+Pillow==10.2.0
+numpy==1.26.4
+
+# README.md content:
+# Instagram Border Generator
+A simple web application that adds borders to images to match Instagram aspect ratios.
+
+## Features
+- Upload any image
+- Choose border color
+- Select Instagram aspect ratios (1:1, 4:5, 16:9)
+- Live preview
+- High-quality download
